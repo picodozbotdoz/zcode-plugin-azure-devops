@@ -1,0 +1,19 @@
+{
+  "name": "picodoz-azure-devops",
+  "plugins": [
+    {
+      "name": "azure-devops",
+      "source": "./azure-devops",
+      "version": "0.1.0",
+      "description": "Operate Azure DevOps through the Azure CLI's azure-devops extension (projects, repos, pull requests, pipelines, boards, wikis, artifacts). Strict preflight gate: reports a missing az CLI, missing azure-devops extension, or missing authentication and stops - never logs in or installs anything, and exposes no non-DevOps Azure features.",
+      "displayName": "Azure DevOps (az CLI)",
+      "category": "developer-tools",
+      "description_i18n": {
+        "zh-CN": "通过 Azure CLI 的 azure-devops 扩展操作 Azure DevOps（项目、Git 仓库、PR、流水线、工作项、Wiki、制品）。内置严格预检：缺少 az CLI、缺少 azure-devops 扩展或未认证时输出提示并停止——本插件不负责登录、不负责安装扩展，也不暴露任何非 DevOps 的 Azure 功能。"
+      },
+      "displayName_i18n": {
+        "zh-CN": "Azure DevOps（az CLI）"
+      }
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "name": "azure-devops",
+  "version": "0.1.0",
+  "description": "Operate Azure DevOps through the Azure CLI's azure-devops extension: projects, teams, Git repositories, pull requests, pipelines and runs, work items and queries, wikis, universal packages and variable groups. Runs a strict preflight gate (az CLI present, azure-devops extension installed, session authenticated) and stops with a clear message on failure - it never logs in or installs anything, and it exposes no non-DevOps Azure features.",
+  "author": { "name": "picodoz" },
+  "skills": "./skills"
+}
