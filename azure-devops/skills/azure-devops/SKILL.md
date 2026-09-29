@@ -131,7 +131,7 @@ confirmation.
 | List pipelines | `az pipelines list ORG PROJ --output json` |
 | Run a pipeline | `az pipelines run ORG PROJ --name <pipeline> --branch main [--parameters key=value]` |
 | Recent runs | `az pipelines runs list ORG PROJ --top 20 --query-order startTimeDesc --output json` |
-| Run artifacts | `az pipelines runs artifact list ORG PROJ --run-id <id> --output json` |
+| Run artifacts | `az pipelines runs artifact list ORG PROJ --id <id> --output json` |
 | Create a work item | `az boards work-item create ORG PROJ --title <text> --type "User Story" [--description <text>] [--fields "System.AreaPath=<path>"]` |
 | Update a work item | `az boards work-item update --id <id> ORG --state Resolved [--fields "System.AssignedTo=<user>"]` |
 | WIQL query | `az boards query ORG PROJ --wiql "SELECT [System.Id], [System.Title] FROM WorkItems WHERE [System.State] = 'Active'" --output json` |

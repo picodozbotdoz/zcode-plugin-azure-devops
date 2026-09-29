@@ -109,7 +109,7 @@ az pipelines runs list --organization <org> --project <project> \
   [--pipeline-ids <id> ...] [--branch <b>] [--status ...] [--result succeeded|failed|canceled] \
   [--top 20 --query-order startTimeDesc] --output json
 az pipelines runs show --organization <org> --project <project> --id <run-id> --output json
-az pipelines runs artifact list --organization <org> --project <project> --run-id <id> --output json
+az pipelines runs artifact list --organization <org> --project <project> --id <id> --output json
 
 # Variable groups
 az pipelines variable-group list --organization <org> --project <project> --output json
